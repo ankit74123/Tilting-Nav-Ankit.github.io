@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tilting Navigation</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="circle-container">
+            <!-- Contains another div having 2 buttons. Each button has an icon -->
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- Contains 2 sections. Section one has a heading, small and paragraph element -->
+            <!-- Section two has a smaller heading, related image and a paragraph -->
+            <div>
+                <h1>Milky Way Galaxy</h1>
+                <small>Our Galaxy</small>
+                <p>The Milky Way Galaxy takes its name from the Milky Way, the irregular luminous band of stars and gas
+                    clouds that stretches across the sky as seen from Earth.The first reliable measurement of the size
+                    of
+                    the Milky Way Galaxy was made in 1917 by American astronomer Harlow Shapley. Assuming that the
+                    globular
+                    clusters outlined the Galaxy, he determined that it has a diameter of about 100,000 light-years. His
+                    values have held up remarkably well over the years.The solar system is about 30,000 light-years from
+                    the
+                    centre of the Milky Way Galaxy. The Galaxy itself is thought to be about 100,000 light-years in
+                    diameter.
+                </p>
+            </div>
+            <div>
+                <h3>Our Solar System</h3>
+                <img src="https://media.istockphoto.com/id/1295851454/photo/earth-and-solar-system-planets.jpg?b=1&s=170667a&w=0&k=20&c=MvTxuhzjrk39h_-KH_Zj6xwRGRS1oBmMp9TB79cgP4o="
+                    alt="our-sun">
+                <p>Our solar system consists of our star, the Sun, and everything bound to it by gravity – the planets
+                    Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune; dwarf planets such as Pluto;
+                    dozens
+                    of moons; and millions of asteroids, comets, and meteoroids. Beyond our own solar system, we have
+                    discovered thousands of planetary systems orbiting other stars in the Milky Way.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <nav>
+        <!-- Contains 3 unordered list items. Each item has an icon and a relevant hyperlinked text-->
+        <ul>
+            <li><i class="fas fa-home"></i><a href="#"></a>Home</li>
+            <li><i class="fas fa-user-alt"></i><a href="#"></a>About</li>
+            <li><i class="fas fa-envelope"></i><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
